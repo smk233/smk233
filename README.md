@@ -1,112 +1,16 @@
-<div align="center">
+# 💫 About Me:
+Hey there! I'm Sumit Kumar, a final-year student, passionate about DevOps, Cloud Computing, and DevSecOps.<br><br>🚀 I enjoy turning code into deployable applications by building CI/CD pipelines, containerizing applications, and automating deployment workflows.
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sumitsmk) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sumit.cse.tech@gmail.com) 
 
-# Sumit Kumar
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
 
-**DevOps & Cloud Engineering | CI/CD | AWS | Docker | Kubernetes**
+🌱 **Currently Learning:** Kubernetes, Terraform, advanced AWS concepts, Linux administration.
 
-Final-year B.Tech CSE student at NIST University, seeking DevOps, Cloud and DevSecOps internships and fresher roles.
+🎯 **My Goal:** To become a skilled DevOps/Cloud Engineer by gaining hands-on experience, solving real-world problems, and continuously improving my technical skills.
 
-<a href="https://www.linkedin.com/in/sumitsmk/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"></a>
-<a href="https://smk233.github.io/myportfolio"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00E5FF" alt="Portfolio"></a>
-<a href="https://github.com/smk233"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+🤝 **Open to:** DevOps, Cloud, and DevSecOps internships, fresher opportunities, and collaborative projects.
 
-</div>
+💬 I believe in learning by building, improving through experimentation, and growing one project at a time.
 
----
-
-## About
-
-I build and deploy containerised applications and CI pipelines, mostly with Docker, Jenkins and AWS. My projects cover the path from source code to a running server: image builds, reverse proxying, security scanning and automated delivery. I am strengthening my Kubernetes, Terraform and Linux skills.
-
----
-
-## Featured Projects
-
-| Project | What it demonstrates | Stack |
-|---|---|---|
-| [**TravelTales India**](https://github.com/smk233/traveltales-india) | Jenkins CI pipeline for a MERN travel blogging app: Trivy filesystem scan, SonarQube analysis with quality gate, Docker image build and push to Docker Hub, then CD job trigger | Jenkins, Docker, Docker Hub, Trivy, SonarQube, Node.js, React |
-| [**Django Notes App: DevOps Deployment**](https://github.com/smk233/django-notes-app-devops) | Multi-container deployment on AWS EC2 with Nginx as reverse proxy in front of Gunicorn/Django and a MySQL database. Based on an open-source app by Shubham Londhe; the DevOps layer is my work | Docker, Docker Compose, Nginx, Gunicorn, MySQL, AWS EC2, Ubuntu |
-| [**Personal Portfolio**](https://github.com/smk233/myportfolio) | Static site built with HTML, CSS and JavaScript, deployed through a GitHub Actions workflow (`CONFIRM`: S3 deployment) | HTML, CSS, JavaScript, GitHub Actions |
-
-### TravelTales CI pipeline (from the repo's `Jenkinsfile`)
-
-```mermaid
-flowchart LR
-    A[Git checkout] --> B[Trivy scan]
-    B --> C[SonarQube analysis]
-    C --> D[Quality gate]
-    D --> E[Docker build]
-    E --> F[Push to Docker Hub]
-    F --> G[Trigger CD job]
-```
-
----
-
-## Tech Stack
-
-**Used in my projects**
-
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Jenkins](https://img.shields.io/badge/Jenkins-0D1117?style=for-the-badge&logo=jenkins&logoColor=D24939)
-![AWS](https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
-![Nginx](https://img.shields.io/badge/Nginx-0D1117?style=for-the-badge&logo=nginx&logoColor=009639)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF)
-![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=4479A1)
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
-**Currently learning**
-
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0D1117?style=for-the-badge&logo=kubernetes&logoColor=326CE5)
-![Terraform](https://img.shields.io/badge/Terraform-0D1117?style=for-the-badge&logo=terraform&logoColor=844FBA)
-![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
-
----
-
-## CI/CD and DevSecOps Tooling
-
-| Tool | Where I used it |
-|---|---|
-| Jenkins (declarative pipeline, shared library) | TravelTales India |
-| Trivy | TravelTales India: filesystem scan stage |
-| SonarQube | TravelTales India: analysis and quality gate |
-| Docker Hub | TravelTales India: image registry |
-| Docker Compose + Nginx | Django Notes App |
-| GitHub Actions | Personal Portfolio |
-
----
-
-## CSE Fundamentals
-
-Linux (Ubuntu) administration, Git and GitHub workflows, networking basics, Java, data structures and algorithms, backend development.
-
----
-
-## Currently Learning
-
-- Kubernetes: deploying and operating workloads on a cluster
-- Terraform: infrastructure as code for AWS
-- Deeper AWS and Linux administration
-- Java, DSA and backend development
-
----
-
-## GitHub Activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=smk233&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub stats">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=smk233&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top languages">
-
-</div>
-
----
-
-<div align="center">
-
-Open to DevOps, Cloud and DevSecOps internships and fresher roles.
-The best way to reach me is [LinkedIn](https://www.linkedin.com/in/sumitsmk/).
-
-</div>
